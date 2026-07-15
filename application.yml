@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springboot_hr
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/hr
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8080
+#  mybatis 配置
+mybatis:
+  mapper-locations: classpath:mapper/*
+  config-location: classpath:mybatis-config.xml
