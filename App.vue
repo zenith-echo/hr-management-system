@@ -1,0 +1,26 @@
+<script setup lang="ts">
+import AIAssistant from "./components/AIAssistant.vue";
+</script>
+
+<template>
+  <router-view />
+  <AIAssistant />
+</template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  height: 100%;
+}
+</style>
